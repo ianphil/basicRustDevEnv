@@ -1,0 +1,22 @@
+{
+  "name": "Basic Rust Dev Environment",
+  "dockerFile": "Dockerfile",
+  "appPort": [9000],
+  "runArgs": [
+    "-u", "vscode"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": ".devcontainer/postCommands.sh",
+  "extensions": [
+    "donjayamanne.githistory",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode",
+    "ms-vscode.azure-account",
+    "Remisa.shellman",
+    "rust-lang.rust",
+    "davidanson.vscode-markdownlint",
+    "ms-vsliveshare.vsliveshare-pack"
+  ]
+}
