@@ -17,6 +17,8 @@
     "Remisa.shellman",
     "rust-lang.rust",
     "davidanson.vscode-markdownlint",
-    "ms-vsliveshare.vsliveshare-pack"
+    "ms-vsliveshare.vsliveshare-pack",
+    "webfreak.debug",
+    "ms-vscode.cpptools"
   ]
 }
