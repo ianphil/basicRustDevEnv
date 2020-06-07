@@ -13,3 +13,7 @@ Cargo.lock
 # End of https://www.toptal.com/developers/gitignore/api/rust
 
 src/main
+
+#Added by cargo
+
+/target
